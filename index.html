@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.14.0-web/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header >
+        <div class="gird header">
+            <div class="header-top__bar">
+                <!-- <ul class="header-top__left--list ">
+                   <li class="header-top__left--item">
+                       <a href="" class="header-top__left--link">Bắt đầu sử dụng</a>
+                   </li>
+               </ul> -->
+                <div class="header-top__left">
+                    <h3>Bắt đầu sử dụng</h3>
+                </div>
+
+                <div class="header-top__right">
+                    <div class="header-top__right--option hide-on--mobile">
+                        <div class="header-top__bar--selection hide-on--mobile">
+                            <span class="header-top__bar--selection-lable">
+                                Bí Ngô Shop
+                            </span>
+                            <i class="header-top__bar--selection-icon fas fa-angle-down"></i>
+                            <ul class="header-top__right--option-list">
+                                <li class="header-top__right--option-item">
+                                    <span>Bí đỏ shop</span>
+                                </li>
+                                <li class="header-top__right--option-item">
+                                    <span>Bí đao shop</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <img src="./assets/img/no_cart.png" class="header-top__bar--img" alt="">
+                        <span class="header-top__bar--admin-lable">
+                            Admin
+                        </span>
+                        <i class="header-top__bar--admin-icon fas fa-angle-down"></i>
+                    </div>
+                    <ul class="header-top__right--list">
+                        <li class="header-top__right--item header-top__right--item-phone">
+                            <a href="tel:+12345" class="header-top__right--link ">
+                                <i class=" fas fa-phone-square-alt">
+                                    <span class="header-top__right--title">new</span>
+                                    <span class="header-top__right--title.border"></span>
+                                </i>
+                            </a>
+                        </li>
+                        <li class="header-top__right--item">
+                            <a href="" class="header-top__right--link">
+                                <i class="fas fa-bell"></i>
+                            </a>
+                        </li>
+                        <li class="header-top__right--item">
+                            <a href="" class="header-top__right--link">
+                                <i class="fas fa-question-circle"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </header>
+    <div class="app_container">
+        <div class="grid wide">
+            <div class="row app_content">
+                <div class="col l-12 m-12 c-12 home">
+                    <div class="home-content__heading">
+                         Vui lòng khai báo thông tin theo các bước phía dưới để bắt đầu sử dụng chương trình
+                    </div>
+                    <!-- Home content -->
+                    <div class="home-content">
+                        <div class="home-content__declaration col l-10 c-8">
+                            <h3>Khai báo danh mục hàng hoá</h3>
+                            <p>Bạn có thể thiết lập danh sách hàng hoá của cử hàng bằng cách nhập khẩu từ excel hoặc tự
+                                khai báo</p>
+                            <button class="btn btn-excel">
+                                <i class="home-content__btn-icon fas fa-file-excel"></i>
+                                Nhập khẩu từ Excel
+                            </button>
+                            <button class="btn ">
+                                <i class="home-content__btn-icon far fa-keyboard"></i>
+                                Tự khai báo
+                            </button>
+                        </div>
+                        <div class="home-content__social col l-2 c-4">
+                            <a class="social-video" id="social-video" data-url='https://www.youtube.com/embed/L7Y9DgnkBEc?autoplay=1' href="">
+                                <img src="./assets/img/video.png" alt="">
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="home-content">
+                        <div class="home-content__declaration col l-10 c-8">
+                            <h3>In mã tem</h3>
+                            <p>Bạn có thể in tem mã và dán lên hàng hoá để bán hàng nhanh bằng máy quét mã vạch</p>
+                            <button class="btn btn-excel">
+                                <i class="home-content__btn-icon fas fa-barcode"></i>
+                                In tem mã
+                            </button>
+                        </div>
+                        <div class="home-content__social col l-2 c-4">
+                            <a class="social-video" id="social-video" data-url='https://www.youtube.com/embed/S9bUzWaI8os?autoplay=1' href="">
+                                <img src="./assets/img/video.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home-content">
+                        <div class="home-content__declaration col l-10 c-8">
+                            <h3>Khai báo nhân viên</h3>
+                            <p>Bạn có thể quản lý danh sách nhân viên và phân quyền cho nhân viên sử dụng phần mềm</p>
+                            <button class="btn btn-excel">
+                                <i class="home-content__btn-icon fas fa-user-plus"></i>
+                                Khái báo nhân viên
+                            </button>
+                        </div>
+                        <div class="home-content__social col l-2 c-4">
+                            <a class="social-video" id="social-video" data-url='https://www.youtube.com/embed/DxvTSomvTqM?autoplay=1' href="">
+                                <img src="./assets/img/video.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home-content">
+                        <div class="home-content__declaration col l-10 c-8">
+                            <h3>Cài đặt phần mềm</h3>
+                            <div class="home-content__software col ">
+                                <img class="home-content__software-img hide" src="./assets/img/logo.jpg" alt="">
+                                <div class="home-content__software-dowload col">
+                                    <p>Bạn có thể thiết lập danh sách hàng hoá của cử hàng bằng cách nhập khẩu từ excel hoặc
+                                        tự khai báo</p>
+                                    <button class="btn btn-excel">
+                                        <i class="home-content__btn-icon fas fa-download"></i>
+                                        Tải bộ cài
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-content__social col l-2 c-4">
+                            <a class="social-video" id="social-video" data-url='https://www.youtube.com/embed/vraZbCRH5c4?autoplay=1' href="">
+                                <img src="./assets/img/video.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modal">
+        <div class="modal-overley">
+            <div class="modal-header">
+                <span class="close" id="close">&times;</span>
+            </div> 
+            <div class="modal-body">
+            <iframe id="iframe-video" class="iframe" src=""
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+       </div>
+    </div> 
+    </div>
+    <div class="footer">
+
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
